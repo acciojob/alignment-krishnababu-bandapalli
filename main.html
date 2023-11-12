@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Assignment 3</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
 
         h1 {
             text-align: center;
@@ -19,6 +15,7 @@
             border: 1px solid black;
             border-spacing: 1px;
             width: 100%;
+			border-collapse:collapse;
         }
 
         td, th {
@@ -52,7 +49,6 @@
 
     <h1>HTML Assignment #3</h1>
 
-    <h2>Table 1</h2>
     <table class="middle" id="table-1">
         <tr>
             <td id="t11">Row 1, Col 1</td>
@@ -71,7 +67,6 @@
         </tr>
     </table>
 
-    <h2>Table 2</h2>
     <table class="middle" id="table-2">
         <tr>
             <td id="t21" colspan="6">Row 1, Col 1-6</td>
@@ -84,18 +79,49 @@
             <td>Row 2, Col 5</td>
             <td>Row 2, Col 6</td>
         </tr>
+		 <tr>
+            <td>Row 3, Col 1</td>
+            <td>Row 3, Col 2</td>
+            <td>Row 3, Col 3</td>
+            <td>Row 3, Col 4</td>
+            <td>Row 3, Col 5</td>
+            <td>Row 3, Col 6</td>
+        </tr>
+		 <tr>
+            <td>Row 4, Col 1</td>
+            <td>Row 4, Col 2</td>
+            <td>Row 4, Col 3</td>
+            <td>Row 4, Col 4</td>
+            <td>Row 4, Col 5</td>
+            <td>Row 4, Col 6</td>
+        </tr>
+		 <tr>
+            <td>Row 5, Col 1</td>
+            <td>Row 5, Col 2</td>
+            <td>Row 5, Col 3</td>
+            <td>Row 5, Col 4</td>
+            <td>Row 5, Col 5</td>
+            <td>Row 5, Col 6</td>
+        </tr>
+		 <tr>
+            <td>Row 6, Col 1</td>
+            <td>Row 6, Col 2</td>
+            <td>Row 6, Col 3</td>
+            <td>Row 6, Col 4</td>
+            <td>Row 6, Col 5</td>
+            <td>Row 6, Col 6</td>
+        </tr>
         <!-- Repeat similar structure for remaining rows -->
     </table>
 
-    <h2>Table 3</h2>
-    <table class="middle green" id="table-3">
+    <table class="middle" id="table-3">
+        <tr class="green">
+			<td>Row 1, Col 1</td>
+            <td>Row 1, Col 2</td>
+            <td>Row 1, Col 3</td>        
+		</tr>
         <tr>
-            <td id="t-image" colspan="3"><img src="your_image_url.jpg" alt="Table Image"></td>
-        </tr>
-        <tr>
-            <td>Row 2, Col 1</td>
-            <td>Row 2, Col 2</td>
-            <td>Row 2, Col 3</td>
+			<td id="t-image" colspan="3"><img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Table Image"></td>
         </tr>
         <!-- Add more rows as needed -->
         <tr class="blue">
