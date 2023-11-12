@@ -8,12 +8,17 @@
 	<style>
 		table{
 			border: 1px solid black;
-			padding: 1px;
 			border-collapse:collapse;
 		}
 		td{
 			padding: 1px solid black;
 			border: 1px solid black;
+		}
+		.green{
+			background-color:green;
+		}
+		.blue{
+			background-color:blue;
 		}
 	</style>
 </head>
@@ -21,14 +26,14 @@
 <body>
 	<!-- the entire body must be written by student -->
 
-	<table id="table-1" width="100%">
+	<table id="table-1" class="middle" width="100%">
 		<caption>HTML Assignment #3</caption>
 		<tr>
 			<td id="t11">left</td>
 			<td id="t12">center</td>
 			<td id="t13" class="right">right</td>
 		</tr>
-		<tr class="center middle">
+		<tr class="center">
 			<td>left</td>
 			<td>center</td>
 			<td class="right">right</td>
@@ -40,7 +45,7 @@
 		</tr>
 	</table>
 
-	<table id="table-2 middle" width="100%">
+	<table id="table-2" class="middle" width="100%">
 		<tr>
 			<th colspan="6" id="t21">1st row</th>
 		</tr>
@@ -86,14 +91,14 @@
 		</tr>
 	</table>
 
-	<table id="table-3" width="100%">
-		<tr style="background-color:green;">
+	<table id="table-3" class="middle" width="100%">
+		<tr class="green">
 			<td ></td>
 		</tr>
 		<tr>
-			<td class="middle t-image"><img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg"></td>
+			<td class="t-image"><img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg"></td>
 		</tr>
-		<tr style="background-color:blue;">
+		<tr class="blue">
 			<td></td>
 		</tr>
 	</table>
